@@ -92,9 +92,6 @@ body {
     background-color: aqua;
 }
 
-.signature {
-
-}
 
 .sig_1 {
     font-family: 'Forum', cursive;
@@ -274,3 +271,85 @@ gap: 300px;
     }
 }
 
+@media screen and (min-width: 327px) and (max-width: 499px) {
+    .body{
+        width: 328px
+        
+    }
+
+    .mem_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapp{
+        display: flex;
+        justify-content: center;
+        width: 368px;
+
+    }
+
+    .slider {
+        width: 325px;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    .three {
+        width: 100%;
+    }
+
+    .four {
+        width: 100%;
+    }
+
+    .text_and_slider {
+
+    }
+
+    .wrapp_foot {
+
+    }
+
+    .sig_1 {
+        font-family: 'Forum', cursive;
+        font-size: 18px;
+    }
+    
+    .sig_2 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 24px;
+    }
+    
+    .sig_3 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 20px;
+    }
+    
+    .sig_4 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 22px;
+    }
+
+    .wrapp_foot {
+        display: flex;
+        background-color: aqua;
+        height: 96px;
+        width: 530px;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
