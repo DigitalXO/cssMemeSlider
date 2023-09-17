@@ -1,0 +1,347 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 768px;
+}
+
+.wrapp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: violet;
+    width: 1024px;
+    height: 100%;
+    
+}
+
+.mem_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wrapp_frame {
+    display: flex;
+    width: 100%;
+    /* width: 700px; */
+    height: 100%;
+}
+
+.slider {
+    /* position: relative; */
+    display: flex;
+    padding: 0;
+    /* justify-content: flex-start; */
+    justify-content: center;
+    align-items: center;
+    transform: scaleX(100%);
+}
+
+.wrapp_foot {
+    display: flex;
+    background-color: aqua;
+    height: 96px;
+    width: 580px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.wrapp_img {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    position: relative;
+    display: flex;
+    width: 80%;
+    box-shadow: 20px 20px 10px #80808073;
+
+}
+
+.two {
+    position: relative;
+    display: none;
+    width: 80%;
+    box-shadow: 20px 20px 10px #80808073;
+}
+
+.three {
+    display: none;
+    width: 80%;
+    box-shadow: 20px 20px 10px #80808073;
+}
+
+.four {
+    display: none;
+    width: 80%;
+    box-shadow: 20px 20px 10px #80808073;
+}
+
+.text_and_slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 96px;
+    background-color: aqua;
+}
+
+
+.sig_1 {
+    font-family: 'Forum', cursive;
+    font-size: 24px;
+}
+
+.sig_2 {
+    display: none;
+    font-family: 'Forum', cursive;
+    font-size: 24px;
+}
+
+.sig_3 {
+    display: none;
+    font-family: 'Forum', cursive;
+    font-size: 24px;
+}
+
+.sig_4 {
+    display: none;
+    font-family: 'Forum', cursive;
+    font-size: 24px;
+}
+
+.control {
+    display: initial;
+    gap: 10px;
+}
+
+.pip {
+    background-color:white ;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    transition: ease 0.4s;
+    
+}
+
+
+.pip2 {
+    background-color:white ;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    transition: ease 0.4s;
+}
+
+.pip3 {
+    background-color:white ;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    transition: ease 0.4s;
+
+}
+
+.pip4 {
+    background-color:white ;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    transition: ease 0.4s;
+}
+
+.pip:hover, .pip2:hover, .pip3:hover, .pip4:hover {
+    background-color:violet;
+    cursor: pointer;
+}
+
+.pip.active {
+    background-color: aqua;
+}
+
+
+.pip2.active {
+    background-color: aqua;
+}
+
+.pip3.active {
+    background-color: aqua;
+}
+
+
+.pip4.active {
+    background-color: aqua;
+}
+
+.gap-js {
+display: flex;
+gap: 300px;
+
+}
+
+
+@media screen and (min-width: 571px) and (max-width: 681px) {
+    .sig_1 {
+        font-family: 'Forum', cursive;
+        font-size: 22px;
+    }
+    
+    .sig_2 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 24px;
+    }
+    
+    .sig_3 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 20px;
+    }
+    
+    .sig_4 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 22px;
+    }
+
+    .wrapp_foot {
+        display: flex;
+        background-color: aqua;
+        height: 96px;
+        width: 530px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 570px) {
+    .sig_1 {
+        font-family: 'Forum', cursive;
+        font-size: 22px;
+    }
+    
+    .sig_2 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 24px;
+    }
+    
+    .sig_3 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 20px;
+    }
+    
+    .sig_4 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 22px;
+    }
+
+    .text_and_slider {
+        height: 150px;
+    }
+
+    .wrapp_foot {
+        display: flex;
+        background-color: aqua;
+        height: 96px;
+        width: 530px;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 327px) and (max-width: 499px) {
+    .body{
+        width: 328px
+        
+    }
+
+    .mem_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapp{
+        display: flex;
+        justify-content: center;
+        width: 368px;
+
+    }
+
+    .slider {
+        width: 325px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    .three {
+        width: 100%;
+    }
+
+    .four {
+        width: 100%;
+    }
+
+
+    .sig_1 {
+        font-family: 'Forum', cursive;
+        font-size: 18px;
+    }
+    
+    .sig_2 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 24px;
+    }
+    
+    .sig_3 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 16px;
+    }
+    
+    .sig_4 {
+        display: none;
+        font-family: 'Forum', cursive;
+        font-size: 22px;
+    }
+
+    .wrapp_foot {
+        display: flex;
+        background-color: aqua;
+        height: 96px;
+        width: 530px;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
